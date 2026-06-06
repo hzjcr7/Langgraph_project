@@ -1,0 +1,114 @@
+{
+  "accuracy": {
+    "bank_extraction_confidence": 1.0,
+    "regulatory_classification_coverage": 1.0,
+    "regulatory_obligation_coverage": 1.0
+  },
+  "compliance": {
+    "bank_compliance_passed": true,
+    "high_risk_regulatory_items": 1,
+    "bank_transaction_risk_flags": 1,
+    "private_deployment": true
+  },
+  "efficiency": {
+    "total_latency_seconds": 0.019,
+    "estimated_manual_minutes": 95,
+    "estimated_agent_minutes": 5,
+    "efficiency_gain": "94.7%"
+  },
+  "quality_gates": {
+    "summary": {
+      "total": 6,
+      "passed": 6,
+      "warning": 0,
+      "failed": 0
+    },
+    "bank": [
+      {
+        "name": "required_fields",
+        "status": "passed",
+        "score": 1.0,
+        "threshold": 0.9,
+        "detail": "Core account fields extracted"
+      },
+      {
+        "name": "balance_reconciliation",
+        "status": "passed",
+        "score": 1.0,
+        "threshold": 1.0,
+        "detail": "Opening + flows equals closing"
+      },
+      {
+        "name": "compliance_warning_budget",
+        "status": "passed",
+        "score": 1.0,
+        "threshold": 0.8,
+        "detail": "Warnings stay under review threshold"
+      }
+    ],
+    "regulatory": [
+      {
+        "name": "classification_coverage",
+        "status": "passed",
+        "score": 1.0,
+        "threshold": 1.0,
+        "detail": "Every item receives a category"
+      },
+      {
+        "name": "summary_coverage",
+        "status": "passed",
+        "score": 1.0,
+        "threshold": 1.0,
+        "detail": "Every item receives a summary"
+      },
+      {
+        "name": "obligation_extraction",
+        "status": "passed",
+        "score": 1.0,
+        "threshold": 0.8,
+        "detail": "Actionable obligations extracted"
+      }
+    ]
+  },
+  "artifacts": {
+    "bank": {
+      "excel": "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\filled_bank_statement.xlsx",
+      "json": "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\bank_result.json"
+    },
+    "regulatory": {
+      "docx": "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\regulatory_digest.docx",
+      "json": "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\regulatory_digest.json"
+    },
+    "audit_logs": [
+      "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\audit_bank_statement_6deed1fb157f.jsonl",
+      "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\audit_regulatory_digest_a7f86cad038d.jsonl"
+    ]
+  },
+  "traces": {
+    "bank": [
+      "agent:document_parser:start",
+      "agent:document_parser:done",
+      "agent:security_guard:start",
+      "agent:security_guard:done",
+      "agent:bank_extractor:start",
+      "memory:bank_statement:context_attached",
+      "agent:bank_extractor:done",
+      "agent:compliance_validator:start",
+      "agent:compliance_validator:done",
+      "agent:quality_gate:start",
+      "agent:quality_gate:done",
+      "agent:excel_filler:start",
+      "agent:excel_filler:done"
+    ],
+    "regulatory": [
+      "agent:news_loader:start",
+      "agent:news_loader:done",
+      "agent:classification_summarizer:start",
+      "agent:classification_summarizer:done",
+      "agent:quality_gate:start",
+      "agent:quality_gate:done",
+      "agent:word_archiver:start",
+      "agent:word_archiver:done"
+    ]
+  }
+}

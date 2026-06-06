@@ -1,0 +1,47 @@
+[
+  {
+    "title": "SFC reprimands and fines licensed corporation for AML control failures",
+    "url": "https://example.com/sfc/aml-control-failures",
+    "published_at": "2026-02-12",
+    "body": "The Securities and Futures Commission reprimanded a licensed corporation and imposed a fine after identifying anti-money laundering control deficiencies. The firm failed to perform sufficient customer due diligence and transaction monitoring for high-risk clients.",
+    "source": "SFC",
+    "category": "aml",
+    "summary": "Title: SFC reprimands and fines licensed corporation for AML control failures Body: The Securities and Futures Commission reprimanded a licensed corporation and imposed a fine after identifying anti-money laundering control deficiencies. The firm failed to perform sufficient customer due diligence and transaction monitoring for high-risk clients.",
+    "risk_level": "high",
+    "obligations": [
+      "Review CDD and EDD procedures for high-risk clients",
+      "Check transaction monitoring alerts and escalation evidence"
+    ],
+    "action_owner": "financial-crime-compliance"
+  },
+  {
+    "title": "Circular to licensed corporations on market misconduct surveillance",
+    "url": "https://example.com/sfc/market-surveillance-circular",
+    "published_at": "2026-02-18",
+    "body": "The regulator reminded licensed corporations to maintain effective trading surveillance, escalation procedures, and evidence retention. Firms should review market conduct controls for suspicious order patterns and disclosure obligations.",
+    "source": "SFC",
+    "category": "market conduct",
+    "summary": "Title: Circular to licensed corporations on market misconduct surveillance Body: The regulator reminded licensed corporations to maintain effective trading surveillance, escalation procedures, and evidence retention. Firms should review market conduct controls for suspicious order patterns and disclosure obligations.",
+    "risk_level": "medium",
+    "obligations": [
+      "Review trading surveillance scenarios and alert thresholds",
+      "Retain evidence for suspicious order pattern escalation"
+    ],
+    "action_owner": "trading-compliance"
+  },
+  {
+    "title": "Updated licensing guidance for responsible officers",
+    "url": "https://example.com/sfc/licensing-guidance-ro",
+    "published_at": "2026-02-26",
+    "body": "The SFC published updated licensing guidance for responsible officers and representatives. The update clarifies competence requirements, sponsor responsibilities, and ongoing notification expectations.",
+    "source": "SFC",
+    "category": "licensing",
+    "summary": "Title: Updated licensing guidance for responsible officers Body: The SFC published updated licensing guidance for responsible officers and representatives. The update clarifies competence requirements, sponsor responsibilities, and ongoing notification expectations.",
+    "risk_level": "medium",
+    "obligations": [
+      "Check responsible officer and representative competence records",
+      "Update licensing notification checklist"
+    ],
+    "action_owner": "licensing-team"
+  }
+]

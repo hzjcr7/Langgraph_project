@@ -1,0 +1,62 @@
+{
+  "account_name": "Guofu Quantum Innovation Limited",
+  "account_no": "HK-8839-2026",
+  "period_start": "2026-02-01",
+  "period_end": "2026-02-28",
+  "opening_balance": 1250000.0,
+  "closing_balance": 1224800.0,
+  "transactions": [
+    {
+      "trade_date": "2026-02-03",
+      "description": "Client Settlement - Securities Desk",
+      "amount": 220000.0,
+      "currency": "HKD",
+      "category": "transfer",
+      "risk_flags": []
+    },
+    {
+      "trade_date": "2026-02-06",
+      "description": "Cloud Service Subscription",
+      "amount": -18000.0,
+      "currency": "HKD",
+      "category": "service_fee",
+      "risk_flags": []
+    },
+    {
+      "trade_date": "2026-02-10",
+      "description": "Payroll February",
+      "amount": -310000.0,
+      "currency": "HKD",
+      "category": "payroll",
+      "risk_flags": []
+    },
+    {
+      "trade_date": "2026-02-15",
+      "description": "Interest Income",
+      "amount": 2800.0,
+      "currency": "HKD",
+      "category": "income",
+      "risk_flags": []
+    },
+    {
+      "trade_date": "2026-02-21",
+      "description": "Internal Transfer to Custody Account",
+      "amount": -100000.0,
+      "currency": "HKD",
+      "category": "transfer",
+      "risk_flags": [
+        "asset_transfer_review"
+      ]
+    },
+    {
+      "trade_date": "2026-02-25",
+      "description": "Client Settlement - Asset Management",
+      "amount": 180000.0,
+      "currency": "HKD",
+      "category": "transfer",
+      "risk_flags": []
+    }
+  ],
+  "extraction_confidence": 1.0,
+  "warnings": []
+}

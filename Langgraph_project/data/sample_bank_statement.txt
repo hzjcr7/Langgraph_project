@@ -1,0 +1,16 @@
+GF Quantum Bank
+Account Name: Guofu Quantum Innovation Limited
+Account No.: HK-8839-2026
+Period: 2026-02-01 to 2026-02-28
+Opening Balance: 1,250,000.00
+
+Transactions
+2026-02-03 | Client Settlement - Securities Desk | HKD 220,000.00
+2026-02-06 | Cloud Service Subscription | HKD -18,000.00
+2026-02-10 | Payroll February | HKD -310,000.00
+2026-02-15 | Interest Income | HKD 2,800.00
+2026-02-21 | Internal Transfer to Custody Account | HKD -100,000.00
+2026-02-25 | Client Settlement - Asset Management | HKD 180,000.00
+
+Closing Balance: 1,224,800.00
+
