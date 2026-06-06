@@ -278,7 +278,7 @@ audit_regulatory_digest_*.jsonl  # 监管资讯流程审计日志
 └── README.md
 ```
 
-## 面试讲解思路
+## 思路
 
 可以按这条线讲：
 
