@@ -1,0 +1,9 @@
+{"run_id": "03403c64b7dd", "scenario": "regulatory_digest", "agent": "orchestrator", "event": "run_created", "detail": {"input_path": "E:\\00290hk\\langgraph_project\\Langgraph_project\\Langgraph_project\\data\\sample_regulatory_news.json"}, "timestamp": "2026-06-14T15:34:25"}
+{"run_id": "03403c64b7dd", "scenario": "regulatory_digest", "agent": "news_loader", "event": "start", "detail": {}, "timestamp": "2026-06-14T15:34:25"}
+{"run_id": "03403c64b7dd", "scenario": "regulatory_digest", "agent": "news_loader", "event": "done", "detail": {"metrics": {}}, "timestamp": "2026-06-14T15:34:25"}
+{"run_id": "03403c64b7dd", "scenario": "regulatory_digest", "agent": "classification_summarizer", "event": "start", "detail": {}, "timestamp": "2026-06-14T15:34:25"}
+{"run_id": "03403c64b7dd", "scenario": "regulatory_digest", "agent": "classification_summarizer", "event": "done", "detail": {"metrics": {"item_count": 3, "high_risk_count": 1, "obligation_count": 6}}, "timestamp": "2026-06-14T15:34:25"}
+{"run_id": "03403c64b7dd", "scenario": "regulatory_digest", "agent": "quality_gate", "event": "start", "detail": {}, "timestamp": "2026-06-14T15:34:25"}
+{"run_id": "03403c64b7dd", "scenario": "regulatory_digest", "agent": "quality_gate", "event": "done", "detail": {"metrics": {"item_count": 3, "high_risk_count": 1, "obligation_count": 6, "quality_passed": true}}, "timestamp": "2026-06-14T15:34:25"}
+{"run_id": "03403c64b7dd", "scenario": "regulatory_digest", "agent": "word_archiver", "event": "start", "detail": {}, "timestamp": "2026-06-14T15:34:25"}
+{"run_id": "03403c64b7dd", "scenario": "regulatory_digest", "agent": "word_archiver", "event": "done", "detail": {"metrics": {"item_count": 3, "high_risk_count": 1, "obligation_count": 6, "quality_passed": true}}, "timestamp": "2026-06-14T15:34:25"}

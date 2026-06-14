@@ -1,0 +1,62 @@
+[
+  {
+    "namespace": "bank_statement",
+    "text": "Extracted account HK-8839-2026 confidence 1.0",
+    "metadata": {}
+  },
+  {
+    "namespace": "regulatory",
+    "text": "aml: SFC reprimands and fines licensed corporation for AML control failures",
+    "metadata": {}
+  },
+  {
+    "namespace": "regulatory",
+    "text": "market conduct: Circular to licensed corporations on market misconduct surveillance",
+    "metadata": {}
+  },
+  {
+    "namespace": "regulatory",
+    "text": "licensing: Updated licensing guidance for responsible officers",
+    "metadata": {}
+  },
+  {
+    "namespace": "bank_statement",
+    "text": "Extracted account HK-8839-2026 confidence 1.0",
+    "metadata": {}
+  },
+  {
+    "namespace": "regulatory",
+    "text": "aml: SFC reprimands and fines licensed corporation for AML control failures",
+    "metadata": {}
+  },
+  {
+    "namespace": "regulatory",
+    "text": "market conduct: Circular to licensed corporations on market misconduct surveillance",
+    "metadata": {}
+  },
+  {
+    "namespace": "regulatory",
+    "text": "licensing: Updated licensing guidance for responsible officers",
+    "metadata": {}
+  },
+  {
+    "namespace": "bank_statement",
+    "text": "Extracted account HK-8839-2026 confidence 1.0",
+    "metadata": {}
+  },
+  {
+    "namespace": "regulatory",
+    "text": "aml: SFC reprimands and fines licensed corporation for AML control failures",
+    "metadata": {}
+  },
+  {
+    "namespace": "regulatory",
+    "text": "market conduct: Circular to licensed corporations on market misconduct surveillance",
+    "metadata": {}
+  },
+  {
+    "namespace": "regulatory",
+    "text": "licensing: Updated licensing guidance for responsible officers",
+    "metadata": {}
+  }
+]

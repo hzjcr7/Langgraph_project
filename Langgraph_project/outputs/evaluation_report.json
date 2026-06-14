@@ -11,7 +11,7 @@
     "private_deployment": true
   },
   "efficiency": {
-    "total_latency_seconds": 0.019,
+    "total_latency_seconds": 0.028,
     "estimated_manual_minutes": 95,
     "estimated_agent_minutes": 5,
     "efficiency_gain": "94.7%"
@@ -72,16 +72,16 @@
   },
   "artifacts": {
     "bank": {
-      "excel": "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\filled_bank_statement.xlsx",
-      "json": "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\bank_result.json"
+      "excel": "E:\\00290hk\\langgraph_project\\Langgraph_project\\Langgraph_project\\outputs\\filled_bank_statement.xlsx",
+      "json": "E:\\00290hk\\langgraph_project\\Langgraph_project\\Langgraph_project\\outputs\\bank_result.json"
     },
     "regulatory": {
-      "docx": "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\regulatory_digest.docx",
-      "json": "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\regulatory_digest.json"
+      "docx": "E:\\00290hk\\langgraph_project\\Langgraph_project\\Langgraph_project\\outputs\\regulatory_digest.docx",
+      "json": "E:\\00290hk\\langgraph_project\\Langgraph_project\\Langgraph_project\\outputs\\regulatory_digest.json"
     },
     "audit_logs": [
-      "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\audit_bank_statement_6deed1fb157f.jsonl",
-      "C:\\Users\\Ronal\\Desktop\\Langgraph_project\\outputs\\audit_regulatory_digest_a7f86cad038d.jsonl"
+      "E:\\00290hk\\langgraph_project\\Langgraph_project\\Langgraph_project\\outputs\\audit_bank_statement_1c4626e10db6.jsonl",
+      "E:\\00290hk\\langgraph_project\\Langgraph_project\\Langgraph_project\\outputs\\audit_regulatory_digest_a2604ac182a3.jsonl"
     ]
   },
   "traces": {
