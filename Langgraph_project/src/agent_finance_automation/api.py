@@ -75,10 +75,6 @@ def main() -> int:
     return 0
 
 
-if __name__ == "__main__":
-    raise SystemExit(main())
-
-
 INDEX_HTML = """<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -204,3 +200,7 @@ INDEX_HTML = """<!doctype html>
   </script>
 </body>
 </html>"""
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
